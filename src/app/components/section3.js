@@ -1,19 +1,19 @@
 export default function Section3() {
   return (
     <section className="bg-[#1e3a8a] bg-cover min-h-screen flex items-center justify-center text-white">
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-3xl">
         <h1 className="text-6xl font-serif ml-20 mb-10">Skills</h1>
         <section className="overflow-x-auto">
           <table className="table-auto w-full border-white border-2">
             <tbody>
               <tr className="border-white border-2">
-                <td className="p-4 border-white border-2">
+                <td className="p-2 border-white border-2">
                   <div className="flex flex-col items-center">
                     <p className="text-3xl font-serif p-4">Data Visualization</p>
                     <p className="font-serif p-4">Visual Story Telling</p>
                   </div>
                 </td>
-                <td className="p-4 border-white border-2">
+                <td className="p-2 border-white border-2">
                   <div className="flex flex-col items-center">
                     <ul className="font-serif">
                       <li>Tableau</li>
