@@ -10,8 +10,8 @@ export default function Header() {
           <i className="fa-brands fa-codepen h-8 w-8 mt-4 text-xl"></i>
           <h1 className="text-xl font-serif">Chloe's Portfolio</h1>
         </div>
-        <span class = "mt-4 font-serif text-xl">
-        <button class="bg-[#020617] hover:bg-red-700 text-white font-bold py-3 px-12 rounded-full">Menu</button>
+        <span className = "mt-4 font-serif text-xl">
+        <button className="bg-[#020617] hover:bg-red-700 text-white font-bold py-3 px-12 rounded-full">Menu</button>
         </span>
       </nav>
     </header>
