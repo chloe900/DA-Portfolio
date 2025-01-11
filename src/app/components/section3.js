@@ -2,7 +2,7 @@ export default function Section3() {
   return (
     <section className="bg-[#1e3a8a] bg-cover min-h-screen flex items-center justify-center text-white">
       <div className="w-full max-w-3xl">
-        <h1 className="text-6xl font-serif ml-20 mb-10">Skills</h1>
+        <h1 className="text-6xl font-serif text-center mb-10">Skills</h1>
         <section className="overflow-x-auto">
           <table className="table-auto w-full border-white border-2">
             <tbody>
