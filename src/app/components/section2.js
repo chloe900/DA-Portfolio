@@ -1,9 +1,9 @@
 export default function Section2() {
   return (
-    <section className="bg-[#172554] bg-cover min-h-screen flex items-center justify-center text-white">
+    <section id="projects" className="bg-[#172554] bg-cover min-h-screen flex items-center justify-center text-white">
       <div className="w-full max-w-6xl lg:w-full">
         <h1 className="text-6xl font-serif text-center mb-10">Projects</h1>
-        <section className="overflow-x-auto">
+        <section  className="overflow-x-auto">
           <table className="table-auto w-full border-white border-2">
             <tbody className="flex flex-wrap">
               <tr className="flex flex-col md:flex-row w-full">
