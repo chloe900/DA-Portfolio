@@ -23,7 +23,7 @@ export default function Header() {
           </button>
         </div>
         <div className={`w-full ${isOpen ? 'block' : 'hidden'} md:flex md:w-auto`}>
-          <ul className="text-xl flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10 justify-center items-center font-serif text-white bg-[#1e3a8a] opacity-white-50 rounded-full px-20 md:px-0 mt-4 md:mt-0">
+          <ul className="text-xl flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10 justify-center items-center font-serif text-white bg-[#1e3a8a] opacity-white-50 rounded-full px-20 py-3 md:px-0 mt-4 md:mt-0">
             <li>
               <a href="#projects" className="hover:bg-[#F4F5FF] rounded-full p-4 hover:text-[#1e3a8a] hover:border hover:border-[#1e3a8a]">Projects</a>
             </li>
