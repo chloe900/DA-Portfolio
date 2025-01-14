@@ -1,10 +1,12 @@
-import Header from "./components/Header.js";
+import '../src/app/globals.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header/>
+      
       <Component {...pageProps} />
+
     </>
   );
 }

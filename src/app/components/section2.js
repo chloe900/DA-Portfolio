@@ -1,3 +1,5 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Link from 'next/link';
 export default function Section2() {
   return (
     <section id="projects" className="bg-[#172554] bg-cover min-h-screen flex items-center justify-center text-white">
@@ -12,6 +14,9 @@ export default function Section2() {
                     <img src="/images/project1.webp" alt="Project 1" className="w-full max-w-full h-auto mb-4" />
                     <h2 className="text-2xl font-serif">Covid-19 Statistics</h2>
                     <p className="text-lg text-center">An SQL project that analyzed Covid-19 Statistics from 2020 to April 2021.</p>
+                    <Link href = "/projects">
+                          <i className="fa-solid fa-arrow-right h-8 w-8 text-l text-white p-2"></i>
+                    </Link>
                   </div>
                 </td>
                 <td className="p-4 border-white border-2 flex-1">
@@ -19,6 +24,9 @@ export default function Section2() {
                     <img src="/images/project2.webp" alt="Project 2" className="w-full max-w-full h-auto mb-4" />
                     <h2 className="text-2xl font-serif">Project 2</h2>
                     <p className="text-lg">Description of Project 2</p>
+                    <a href="https://github.com/chloe900" target="_blank" rel="noreferrer">
+                      <i className="fa-solid fa-arrow-right h-8 w-8 text-l text-white p-2"></i>
+                    </a>
                   </div>
                 </td>
                 <td className="p-4 border-white border-2 flex-1">
@@ -26,6 +34,9 @@ export default function Section2() {
                     <img src="/images/project3.webp" alt="Project 3" className="w-full max-w-full h-auto mb-4" />
                     <h2 className="text-2xl font-serif">Project 3</h2>
                     <p className="text-lg">Description of Project 3</p>
+                    <a href="https://github.com/chloe900" target="_blank" rel="noreferrer">
+                      <i className="fa-solid fa-arrow-right h-8 w-8 text-l text-white p-2"></i>
+                    </a>
                   </div>
                 </td>
               </tr>
